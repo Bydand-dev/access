@@ -24,7 +24,7 @@ RETRY_BACKOFF_FACTOR = 0.5
 REQUEST_TIMEOUT = 30
 
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(analytics)
 
 
 class OktaService:
